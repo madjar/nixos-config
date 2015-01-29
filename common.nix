@@ -3,7 +3,6 @@
 {
   imports =
     [
-      <nixos/modules/programs/virtualbox.nix>
     ];
 
   # boot.kernelPackages = pkgs.linuxPackages_latest;
@@ -21,7 +20,7 @@
       enable = true;
       period = "00 13 * * *";
     };
-    
+
     openssh.enable = true;
 
     printing = {
@@ -38,6 +37,8 @@
       displayManager.kdm.enable = true;
       desktopManager.kde4.enable = true;
     };
+
+    virtualboxHost.enable = true;
   };
 
   fonts = {
