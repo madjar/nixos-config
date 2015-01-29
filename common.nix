@@ -73,12 +73,12 @@
       htop iotop wget tree tmux silver-searcher git
 
       # X
-      oxygen-gtk2 oxygen-gtk3 kde4.kmix kde4.yakuake kde4.okular kde4.ksshaskpass kde4.kwalletmanager kde4.ark kde4.kdeplasma_addons kde4.kscreensaver kde4.gwenview kde4.ksnapshot
+      oxygen-gtk2 oxygen-gtk3 
       firefoxWrapper
 
       # Misc
       fish aspellDicts.fr linuxPackages.virtualbox
-    ];
+    ] ++ (with kde4; [ kmix yakuake okular ksshaskpass kwalletmanager ark kdeplasma_addons kscreensaver gwenview ksnapshot ]);
 
     variables.EDITOR = "emacs";
 
