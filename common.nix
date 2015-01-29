@@ -73,7 +73,7 @@
       htop iotop wget tree tmux silver-searcher git
 
       # X
-      oxygen_gtk kde4.kmix kde4.yakuake kde4.okular kde4.ksshaskpass kde4.kwalletmanager kde4.ark kde4.kdeplasma_addons kde4.kscreensaver
+      oxygen_gtk kde4.kmix kde4.yakuake kde4.okular kde4.ksshaskpass kde4.kwalletmanager kde4.ark kde4.kdeplasma_addons kde4.kscreensaver kde4.gwenview kde4.ksnapshot
       firefoxWrapper
 
       # Misc
