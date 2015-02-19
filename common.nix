@@ -39,6 +39,12 @@
     };
 
     virtualboxHost.enable = true;
+
+    redis = {
+      enable = true;
+      bind = "127.0.0.1";
+      extraConfig = "maxclients 950";
+    };
   };
 
   fonts = {
